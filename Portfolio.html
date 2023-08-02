@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style0.css">
+  
+ <script src="https://kit.fontawesome.com/b3fcd3de32.js" crossorigin="anonymous"></script>   
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           <nav>
+            <img src="Slogo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+           </nav> 
+           <div class="header-text"></div>
+           <p>UI/UX Designer</p>
+           <br>
+           <h1>Hi, I'm  <span style="color: #ff004f";> Shibu </span> <br/> Sangma From Assam</h1>
+        </div>
+    </div>
+    <!---------about------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="16.PNG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A UI UX designer is a professional who identifies new opportunities to create better user experiences. Aesthetically pleasing branding strategies help them effectively reach more customers. They also ensure that the end-to-end journey with their products or services meets desired outcomes.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br> Web Development</li>
+                            <li><span>App Development</span><br> Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>2018 -Current</span><br> Technical Support Advisor II (Lenovo)</li>
+                            <li><span>2018- 2021</span><br> Technical Email Support</li>
+                            <li><span>2015 - 2017</span><br> Field Engineer (HP)</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2009</span><br> Sir Isaac Newton High School</li>
+                            <li><span>2011</span><br> Assam Higher Secondary Education <br>Eastern Karbi Anlong College</li>
+                            <li><span>2023</span><br> Bachelor Computer Application</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-------------Services ------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+                    <br>
+                    <p>A web designer is responsible for creating the design and layout of a website or web pages. Unlike web developers, who specialise in creating new websites' structures and the code that forms these, web designers tend to focus on the visual aspects of a site, such as its layout and its usability.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2> UI/UX Design</h2>
+                    <br>
+                    <p>UI/UX Designer responsibilities include gathering user requirements, designing graphic elements and building navigation components. To be successful in this role, you should have experience with design software and wireframe tools. If you also have a portfolio of professional design projects that includes work with web/mobile applications, we’d like to meet you.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2> App Design</h2>
+                    <br>
+                    <p>App design is like all other types of design – it’s about creating something with form AND function. Not only does your app have to look pretty, but it also has to work.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!----> <!--------<------Portfolio----------------------->
+   <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="social-media.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Connectivity is among the most significant benefits of social media. It can link countless users at any time, everywhere. Information could be spread globally through social media and its connectedness, making it simple for people to interact with one another. It results in global relationships.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="thinkpad-x1.webp">
+                <div class="layer">
+                    <h3>Thinkpad App</h3>
+                    <p>The ThinkPad series laptops have been praised for their design which has changed much. The manufacturers have focused less on tweaking the looks and more on the security features.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="online.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>For some, shopping is an art; for others, it's a sport. It can be a vice and it can be a cause. Some love it. Some hate it. Rarely is someone indifferent.</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+   </div>
+   <!----------------------------------------------------------Contact------------------------>
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sjsangma11@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>9972534409</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder=" Name" required>
+                    <input type="email" name="email" placeholder=" Email" required>
+                    <textarea name="Message" row="6" placeholder=" Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright @ Shibu with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+   </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
